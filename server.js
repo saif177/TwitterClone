@@ -4,9 +4,10 @@ const port = 3000;
 const middleware = require('./middleware');
 const path = require('path')
 const bodyParser = require('body-parser');
+const mongoose = require('./database');
 
 const server = app.listen(port, () => console.log("server listening on port " + port));
-
+//kKR0ljwtdCgz07TT 
 app.set("view engine", "pug");
 app.set("views","views");
 
